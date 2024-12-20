@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 30px;
+}
+
+.nav-center {
+    display: flex;
+    gap: 24px;
+}
+
+ul {
+    gap: 24px;
+    display: flex;
+    list-style: none;
+}
+
+li a {
+    font-family: GIP;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.47px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#profile-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.hero-section {
+    background-image:url(assets/hero-image.png), linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 40.27%),
+    linear-gradient(0deg, rgba(157, 184, 218, 0.2), rgba(157, 184, 218, 0.2));
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#top-text {
+    font-family: bebas neue;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #e8edf278;
+}
+
+#primary-text {
+    font-family: bebas neue;
+    font-weight: 400;
+    font-size: 250px;
+    line-height: 250px;
+    text-align: center;
+    color: #fdfdfe;
+}
+
+#date {
+    font-family: hanuman;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #ffffff80;
+}
+
+.tour-detail-section {
+    background-color: #D8E4E9;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.photo-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic-card {
+    width: 275.49px;
+    height: 370px;
+    border-radius: 40px;
+    background: linear-gradient(0deg, rgba(157, 184, 218, 0.2), rgba(157, 184, 218, 0.2)), (0deg, rgba(34, 34, 34, 0.03), rgba(34, 34, 34, 0.03));
+    box-shadow: 8px 8px 0px 0px #29728B40, -8px -8px 0px 0px #1F72AA75;
+}
+
+.card-name {
+    font-family: bebas neue;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 44.4px;
+    text-align: center;
+    color: #fdfdfe80;
+    position: absolute;
+}
+
+.map-section {
+    background-image: url(assets/map-image.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hover-containers {
+    margin-top: 92.5px;
+    margin-left: 120px;
+}
+
+.hover-container {
+    width: 513px;
+    height: 112px;
+    border-radius: 120px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tour-location {
+    font-family: GIP;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.25px;
+    color: #09090b;
+    margin-bottom: 4.5px;
+}
+
+.tour-province {
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #18181b;
+}
+
+.tour-date {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #f7f6f3;
+}
+
+.map-pin-black {
+    height: 14px;
+    width: 14px;
+}
+
+.text-with-pin {
+    display: flex;
+    gap: 12px;
+}
+
+.date-text {
+    position: relative;
+    top: 18px;
+    left: 8px;
+}
+
+.hover-container:nth-child(1) {
+    background-color: #eee9d9;
+}
+
+.hover-container:nth-child(2) {
+    background-color: #8bb8c180;
+}
+
+.hover-container:nth-child(3) {
+    background-color: #aad8d780;
+}
+
+.hover-container:nth-child(4) {
+    background-color: #8bc0bd80;
+}
+
+.hover-container:nth-child(5) {
+    background-color: #97cce080;
+}
+
+.footer-section {
+    background-image: url(assets/footer-image.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.section-title {
+    font-family: GIP;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50.11px;
+    text-align: center;
+    color: #000000;
+    padding-top: 120px;
+}
+
+.sub-head {
+    font-family: GIP;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.54px;
+    text-align: center;
+    color: #18181b70;
+    padding-top: 10px;
+}
+
+.destination-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    gap: 24px;
+}
+
+.destinantion-card {
+    width: 384px;
+    height: 527px;
+    border-radius: 40px;
+    background-color: #fafbfc;
+}
+
+.heart-icon-back {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #d6d8d8;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.heart-icon {
+    position: relative;
+    top: 9.35px;
+    left: 7.67px;
+}
+
+.package-text {
+    font-family: GIP;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.47px;
+    color: #121316;
+}
+
+.package-kind {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 30px;
+    padding-left: 24px;
+    padding-bottom: 12px;
+}
+
+.price-info {
+    padding-top: 31px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+
+.price-number {
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48.75pxpx;
+    color: #303030;
+}
+
+.price-text {
+    font-family: sf pro display;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.09px;
+    color: #919191;
+}
+
+.tour-routine {
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+
+.travel-info {
+    font-family: GIP;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.48px;
+    color: #121316;
+    padding-bottom: 18px;
+}
+
+.includes {
+    font-family: GIP;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #121316;
+    padding-bottom: 16px;
+}
+
+.right-icon-with {
+    display: flex;
+    gap: 20px;
+}
+
+.select-package {
+    background-color: #a4d1e2;
+    width: 336px;
+    height: 48px;
+    border: none;
+    border-radius: 60px;
+    font-family: inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 48.75pxpx;
+    color: #000000;
+    margin-left: 24px;
+}
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 166px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.media-icons {
+    width: 358px;
+    display: flex;
+    justify-content: space-between;
+}
